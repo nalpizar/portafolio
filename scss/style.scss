@@ -172,11 +172,14 @@ nav.affix {
 }
 .work-container {
 	text-align: center;
+	hr {
+		border-color: #d8d2bc;
+	}
 	h2 {
 		font-size: 3em;
 		color: $second-color;
 	}
-	.col-sm-3 {
+	.col-xs-6 {
 		h3 {
 			font: 1.5em $secondary-font;
 			margin-top: 1.438em;
@@ -192,7 +195,7 @@ nav.affix {
 		}
 		p {
 			margin-bottom: 51px;
-			text-align: left;
+			text-align: center;
 		}
 		img {
 			margin-top: 1.438em;
@@ -202,6 +205,17 @@ nav.affix {
 			text-align: center;
 			margin-bottom: 1em;
 			font-size: 1.2em;
+		}
+	}
+	.bitacoras {
+		ul {
+			li {
+				list-style: none;
+				margin-bottom: 10px;
+				a {
+					color: #d8d2bc;
+				}
+			}
 		}
 	}
 }
@@ -325,6 +339,14 @@ footer {
 	border: 1px solid #080808;
 	.row {
 		margin-top: 0;
+		.col-md-4 {
+			.contact-links {
+				a {
+					color: #d8d2bc;
+					margin-left: 10px;
+				}
+			}
+		}
 	}
 }
 /*footer*/
